@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AutoPingServ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AutoPingServ.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iplist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iplist.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ICSharpCode_SharpZipLib" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICSharpCode.SharpZipLib.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="microsoft_office_interop_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microsoft.office.interop.excel.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Newtonsoft_Json" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Newtonsoft.Json.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Renci_SshNet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Renci.SshNet.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Rename" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\批量重命名.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dbinfo" xml:space="preserve">
+    <value>CREATE TABLE `dbinfo` (
+                  `RecordTime` datetime(3) DEFAULT NULL,
+                  `MatchType` int(11) DEFAULT NULL,
+                  `Repeat` int(11) DEFAULT NULL,
+                  `UnEffect` int(11) DEFAULT NULL,
+                  `VirtualPosX` int(11) DEFAULT NULL,
+                  `VirtualPosY` int(11) DEFAULT NULL,
+                  `RealityPosX` int(11) DEFAULT NULL,
+                  `RealityPosY` int(11) DEFAULT NULL,
+                  `Las5_TrigLine` int(11) DEFAULT NULL,
+                  `Las5_LaneNo` int(11) DEFAULT NULL,
+                  `Las5_VehId` int(11) DEFAULT NULL,
+                  `Las5_LocalTime` datetime(3) DEFAULT NULL,
+                  `Las5_DetectTime` datetime(3) DEFAULT NULL,
+                  `Las5_CorrdX` int(11) DEFAULT NULL,
+                  `Las5_CorrdY` int(11) DEFAULT NULL,
+                  `Las5_SpeedVeh` int(11) DEFAULT NULL,
+                  `Las5_SpeedUse` int(11) DEFAULT NULL,
+                  `Las5_SpeedAvg` int(11) DEFAULT NULL,
+                  `Las5_RangeY` int(11) DEFAULT NULL,
+                  `Las5_RangeN` int(11) DEFAULT NULL,
+                  `Las4_TrigLine` int(11) DEFAULT NULL,
+                  `Las4_LaneNo` int(11) DEFAULT NULL,
+                  `Las4_VehId` int(11) DEFAULT NULL,
+                  `Las4_LocalTime` datetime(3) DEFAULT NULL,
+                  `Las4_DetectTime` datetime(3) DEFAULT NULL,
+                  `Las4_CorrdX` int(11) DEFAULT NULL,
+                  `Las4_CorrdY` int(11) DEFAULT NULL,
+                  `Las4_SpeedVeh` int(11) DEFAULT NULL,
+                  `Las4_SpeedUse` int(11) DEFAULT NULL,
+                  `Las4_SpeedAvg` int(11) DEFAULT NULL,
+                  `Las4_RangeY` int(11) DEFAULT NULL,
+                  `Las4_RangeN` int(11) DEFAULT NULL,
+                  `Las3_TrigLine` int(11) DEFAULT NULL,
+                  `Las3_LaneNo` int(11) DEFAULT NULL,
+                  `Las3_VehId` int(11) DEFAULT NULL,
+                  `Las3_LocalTime` datetime(3) DEFAULT NULL,
+                  `Las3_DetectTime` datetime(3) DEFAULT NULL,
+                  `Las3_CorrdX` int(11) DEFAULT NULL,
+                  `Las3_CorrdY` int(11) DEFAULT NULL,
+                  `Las3_SpeedVeh` int(11) DEFAULT NULL,
+                  `Las3_SpeedUse` int(11) DEFAULT NULL,
+                  `Las3_SpeedAvg` int(11) DEFAULT NULL,
+                  `Las3_RangeY` int(11) DEFAULT NULL,
+                  `Las3_RangeN` int(11) DEFAULT NULL,
+                  `Cap1_Frm` int(11) DEFAULT NULL,
+                  `Cap1_LaneNo` int(11) DEFAULT NULL,
+                  `Cap1_HeadId` int(11) DEFAULT NULL,
+                  `Cap1_PltId` int(11) DEFAULT NULL,
+                  `Cap1_LocalTime` datetime(3) DEFAULT NULL,
+                  `Cap1_DetectTime` datetime(3) DEFAULT NULL,
+                  `Cap1_Plate` varchar(12) DEFAULT NULL,
+                  `Cap1_TrigSrc` int(11) DEFAULT NULL,
+                  `Cap2_Frm` int(11) DEFAULT NULL,
+                  `Cap2_LaneNo` int(11) DEFAULT NULL,
+                  `Cap2_HeadId` int(11) DEFAULT NULL,
+                  `Cap2_PltId` int(11) DEFAULT NULL,
+                  `Cap2_LocalTime` datetime(3) DEFAULT NULL,
+                  `Cap2_DetectTime` datetime(3) DEFAULT NULL,
+                  `Cap2_Plate` varchar(12) DEFAULT NULL,
+                  `Cap2_TrigSrc` int(11) DEFAULT NULL,
+                  `Cap3_Frm` int(11) DEFAULT NULL,
+                  `Cap3_LaneNo` int(11) DEFAULT NULL,
+                  `Cap3_HeadId` int(11) DEFAULT NULL,
+                  `Cap3_PltId` int(11) DEFAULT NULL,
+                  `Cap3_LocalTime` datetime(3) DEFAULT NULL,
+                  `Cap3_DetectTime` datetime(3) DEFAULT NULL,
+                  `Cap3_Plate` varchar(12) DEFAULT NULL,
+                  `Cap3_TrigSrc` int(11) DEFAULT NULL,
+                  `Rsu_LaneNo` int(11) DEFAULT NULL,
+                  `Rsu_MacId` varchar(12) DEFAULT NULL,
+                  `Rsu_Error` varchar(12) DEFAULT NULL,
+                  `Rsu_Valid` varchar(12) DEFAULT NULL,
+                  `Rsu_MacIdRelate` varchar(255) DEFAULT NULL,
+                  `Rsu_ErrorRelate` varchar(255) DEFAULT NULL,
+                  `Rsu_ValidRelate` varchar(255) DEFAULT NULL,
+                  `Rsu_LocalTime` datetime(3) DEFAULT NULL,
+                  `Rsu_DetectTime` datetime(3) DEFAULT NULL,
+                  `Rsu_PlateIcc` varchar(12) DEFAULT NULL,
+                  `Rsu_PlateObu` varchar(12) DEFAULT NULL,
+                  `Rsu_VstX1` int(11) DEFAULT NULL,
+                  `Rsu_VstY1` int(11) DEFAULT NULL,
+                  `Rsu_TrdX2` int(11) DEFAULT NULL,
+                  `Rsu_TrdY2` int(11) DEFAULT NULL,
+                  `Rsu_TrdX3` int(11) DEFAULT NULL,
+                  `Rsu_TrdY3` int(11) DEFAULT NULL,
+                  `Rsu_TrdX4` int(11) DEFAULT NULL,
+                  `Rsu_TrdY4` int(11) DEFAULT NULL,
+                  `Rsu_TrdX5` int(11) DEFAULT NULL,
+                  `Rsu_TrdY5` int(11) DEFAULT NULL,
+                  `Rsu_SelfSta` varchar(12) DEFAULT NULL,
+                  `VehJudge` int(11) DEFAULT NULL,
+                  `LineLaser` int(11) DEFAULT NULL,
+                  `LineVideo` int(11) DEFAULT NULL,
+                  `PicTotal` int(11) DEFAULT NULL,
+                  `PicPath1` varchar(255) DEFAULT NULL,
+                  `PicPath2` varchar(255) DEFAULT NULL,
+                  `PicPath3` varchar(255) DEFAULT NULL,
+                  `PicPath4` varchar(255) DEFAULT NULL,
+                  `PicPath5` varchar(255) DEFAULT NULL,
+                  `PicPath6` varchar(255) DEFAULT NULL,
+                  `Reserve01` int(11) DEFAULT NULL,
+                  `Reserve02` int(11) DEFAULT NULL,
+                  `Reserve03` int(11) DEFAULT NULL,
+                  `Reserve04` int(11) DEFAULT NULL,
+                  `Reserve05` int(11) DEFAULT NULL,
+                  `Reserve06` datetime(3) DEFAULT NULL,
+                  `Reserve07` datetime(3) DEFAULT NULL,
+                  `Reserve08` int(11) DEFAULT NULL,
+                  `Reserve09` int(11) DEFAULT NULL,
+                  `Reserve10` int(11) DEFAULT NULL,
+                  `Reserve11` int(11) DEFAULT NULL,
+                  `Reserve12` int(11) DEFAULT NULL,
+                  `Reserve13` int(11) DEFAULT NULL,
+                  `Reserve14` int(11) DEFAULT NULL,
+                  `Reserve15` int(11) DEFAULT NULL,
+                  `Reserve16` int(11) DEFAULT NULL,
+                  `Reserve17` int(11) DEFAULT NULL,
+                  `Reserve18` int(11) DEFAULT NULL,
+                  `Reserve19` int(11) DEFAULT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;</value>
+  </data>
+  <data name="MySql_Data" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MySql.Data.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IcyTools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcyTools.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
